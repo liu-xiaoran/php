@@ -45,13 +45,13 @@ $config->debug = true;
 $config->db['host'] = 'localhost';
 
 // 数据库名
-$config->db['db'] = '';
+$config->db['db'] = 'ishop';
 
 // 数据库用户
-$config->db['user'] = '';
+$config->db['user'] = 'root';
 
 // 数据库密码
-$config->db['pass'] = '';
+$config->db['pass'] = '660819';
 
 // 是否已经通过微信认证
 $config->wechatVerifyed = true;
@@ -63,12 +63,12 @@ $config->useWechatAddr = true;
 $config->noPay = false;
 
 // 系统根目录
-$config->shoproot = '/';
+$config->shoproot = '/var/www/html/i';
 
 
 
 // 系统根域名 /结尾
-$config->domain = 'http://iw.com/';
+$config->domain = 'http://i.liuxiaoran.win/';
 
 
 // 不需要微信支付直接下单 测试用
@@ -100,7 +100,7 @@ $config->cssversion = '1.5.1';
 $config->shopName = '微信商城demo';
 
 // upyun 商品图片前缀
-$config->imagesPrefix = 'http://iwshop.b0.upaiyun.com/' . $config->upyunDir;
+$config->imagesPrefix = '' . $config->upyunDir;
 
 // 商品图片目录
 $config->productPicRoot = APP_PATH . "uploads/product_hpic/";
