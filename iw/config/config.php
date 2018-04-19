@@ -45,7 +45,7 @@ $config->debug = true;
 $config->db['host'] = 'localhost';
 
 // 数据库名
-$config->db['db'] = 'ishop';
+$config->db['db'] = 'wexinshop';
 
 // 数据库用户
 $config->db['user'] = 'root';
@@ -63,7 +63,7 @@ $config->useWechatAddr = true;
 $config->noPay = false;
 
 // 系统根目录
-$config->shoproot = '/var/www/html/i';
+$config->shoproot = '/var/www/i/';
 
 
 
